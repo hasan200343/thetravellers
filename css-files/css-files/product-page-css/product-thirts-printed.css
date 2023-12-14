@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  --color-black-100: #000000;
+  --color-white-200: #ffffff;
+  --color-redish_black-200: #1d0202;
+  --color-voilet-200: #b0b9f7;
+  --shadow-black-translucent: #00000054;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black-100);
+}
+
+/*navbar styling*/
+body {
+  background-color: var(--color-black-200);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 4;
+}
+
+#logo {
+  width: 7rem;
+  height: 4rem;
+}
+#navbarNavDropdown a:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+/*navbar styling above*/

@@ -1,0 +1,392 @@
+@media (max-width: 768px) {
+  #banner .carousel-control-next {
+    width: 10%;
+  }
+
+  #carouselExampleDark {
+    margin-top: 2rem;
+    height: 30%;
+    width: 100%;
+  }
+
+  #carouselExampleDark img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  #carouselExampleDark .carousel-indicators {
+    display: none;
+  }
+
+  #carouselExampleSmallScreen .card {
+    background-color: transparent;
+    padding: 3rem;
+    margin: auto;
+    border: none;
+    max-height: 100%;
+    width: 100%;
+  }
+
+  #carouselExampleSmallScreen .card p {
+    text-align: left;
+  }
+
+  #carouselExampleSmallScreen .image-wrapper {
+    background-color: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  #carouselExampleSmallScreen .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #carouselExampleSmallScreen .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
+
+  .carousel-item .cards-wrapper .card #card-link:hover {
+    transform: translate(0, -20px);
+  }
+
+  #product-showcase {
+    background-color: var(--color-black-200);
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .rps-head {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+
+  .rps-grid1 {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .rps-grid1 .g1 {
+    background-image: url(/images/final_images/t-shirts.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .g2 {
+    background-image: url(/images/final_images/t-shirts2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .g3 {
+    background-image: url(/images/final_images/t-shirts2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .g4 {
+    background-image: url(/images/final_images/t-shirts.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .g1,
+  .g2,
+  .g3,
+  .g4 {
+    border-radius: 3%;
+    overflow: hidden;
+  }
+
+  .rpg-img-head {
+    background-color: aliceblue;
+    z-index: inherit;
+  }
+
+  .rps-grid1 .g1 img {
+    object-fit: cover;
+    height: auto;
+    width: calc(100%);
+  }
+
+  #random-products h1 {
+    margin: auto 1rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #random-products p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #random-products .head-para {
+    margin: 1rem 1rem;
+  }
+
+  /* cards for tablets */
+  #carouselExampleSmallScreen .card {
+    width: 100%;
+  }
+
+  #product_categories {
+    padding: 2%;
+  }
+
+  #product_categories .cat_head {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .category {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }
+
+  .category .p_cat_card {
+    margin: 5rem auto;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .category .p_cat_card a {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* footer media queries */
+
+  #get-to-know {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    color: white;
+  }
+
+  #get-to-know .s-head h2 {
+    font-size: 1.875rem;
+  }
+
+  #get-to-know .s-para p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .subscribe-section-text {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .input-field {
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0 5%;
+  }
+
+  .s-input #mail-input {
+    display: block;
+  }
+
+  .s-input #e-mail {
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 100rem 0% 0% 100rem;
+  }
+
+  .s-input #submit-form {
+    border: none;
+    background-color: var(--color-voilet-200);
+    color: rgb(0, 0, 0);
+    border-radius: 0 100rem 100rem 0;
+    transition: 0.2s ease-in-out;
+  }
+
+  .s-input #submit-form:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .input-field .after-submit {
+    color: white;
+    text-align: center;
+  }
+
+  /* important-links section */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #important-links1 {
+    padding: 1rem 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  #important-links1 span {
+    font-weight: bold;
+  }
+
+  #important-links1 ul li {
+    letter-spacing: 0.7px;
+    font-size: 0.8rem;
+  }
+
+  /* social links for tablets*/
+  #social-links {
+    margin: auto 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  #social-links h2 {
+    font-size: 1rem;
+  }
+
+  #social-links .social-link-lists {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 20%;
+    width: calc(100%);
+  }
+
+  #social-links .social-link-lists img {
+    height: 2rem;
+  }
+
+  #payment-partners {
+    text-align: center;
+  }
+
+  #payment-partners h2 {
+    font-size: small;
+  }
+
+  #payment-partners .payment-partners-links img {
+    height: 2rem;
+  }
+
+  #payment-partners .payment-partners-links {
+    margin: auto;
+  }
+
+  hr {
+    margin: 5% 0;
+    margin-bottom: 0;
+  }
+
+  #cortex-links {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+  #cortex-links h2 {
+    font-size: 0.75rem;
+  }
+
+  #cortex-links a {
+    color: white;
+  }
+}
+/* random products section for smaller devices - don't use for overall media styling*/
+@media (max-width: 600px) {
+  #carouselExampleDark {
+    margin-top: 4rem;
+  }
+
+  #carouselExampleSmallScreen {
+    width: 100%;
+  }
+
+  #carouselExampleSmallScreen .card {
+    background-color: transparent;
+    /* padding: 2rem; */
+    margin: 0;
+    border: none;
+    /* max-width: 100%; */
+  }
+
+  #random-products h1 {
+    margin: auto 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #random-products p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* social links for mobiles */
+  #social-links {
+    display: grid;
+    margin: 0%;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+/* to hide #product-showcase in larger screens */
+@media (min-width <= 768px) {
+  #product-showcase {
+    display: none;
+  }
+}
+
+/* to hide #carouselExample in small screens  */
+@media (max-width: 768px) {
+  #carouselExample {
+    display: none;
+  }
+}
+/* to hide  #carouselExampleSmallScreen in bigger screens*/
+@media (min-width: 770px) {
+  #carouselExampleDarkSmallScreens {
+    display: none;
+  }
+}

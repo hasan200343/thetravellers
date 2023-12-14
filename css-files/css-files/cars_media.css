@@ -1,0 +1,363 @@
+@media (max-width: 768px) {
+  #productlist-container-view {
+    margin-top: 12%;
+  }
+
+  #productlist-container-view .list-head-section {
+    text-align: center;
+  }
+
+  #productlist-container-view .list-head-section h2 {
+    font-size: 3rem;
+  }
+
+  #productlist-container-view .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .product-container .card {
+    max-width: calc(100% / 2);
+    padding: 3%;
+    border: none;
+  }
+
+  .product-container .card .card-body {
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  /* footer media queries */
+
+  #get-to-know {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    color: white;
+  }
+
+  #get-to-know .s-head h2 {
+    font-size: 1.875rem;
+  }
+
+  #get-to-know .s-para p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .subscribe-section-text {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .input-field {
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0 5%;
+  }
+
+  .s-input #mail-input {
+    display: block;
+  }
+
+  .s-input #e-mail {
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 100rem 0% 0% 100rem;
+  }
+
+  .s-input #submit-form {
+    border: none;
+    background-color: var(--color-voilet-200);
+    color: rgb(0, 0, 0);
+    border-radius: 0 100rem 100rem 0;
+    transition: 0.2s ease-in-out;
+  }
+
+  .s-input #submit-form:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .input-field .after-submit {
+    color: white;
+    text-align: center;
+  }
+
+  /* important-links section */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #important-links1 {
+    padding: 1rem 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  #important-links1 span {
+    font-weight: bold;
+  }
+
+  #important-links1 ul li {
+    letter-spacing: 0.7px;
+    font-size: 0.8rem;
+  }
+
+  /* social links for tablets*/
+  #social-links {
+    margin: auto 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  #social-links h2 {
+    font-size: 1rem;
+  }
+
+  #social-links .social-link-lists {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 20%;
+    width: calc(100%);
+  }
+
+  #social-links .social-link-lists img {
+    height: 2rem;
+  }
+
+  #payment-partners {
+    text-align: center;
+  }
+
+  #payment-partners h2 {
+    font-size: small;
+  }
+
+  #payment-partners .payment-partners-links img {
+    height: 2rem;
+  }
+
+  #payment-partners .payment-partners-links {
+    margin: auto;
+  }
+
+  hr {
+    margin: 5% 0;
+    margin-bottom: 0;
+  }
+
+  #cortex-links {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+  #cortex-links h2 {
+    font-size: 0.75rem;
+  }
+
+  #cortex-links a {
+    color: white;
+  }
+}
+
+@media (max-width: 600px) {
+  #productlist-container-view {
+    margin-top: 22%;
+  }
+
+  #productlist-container-view .list-head-section h2 {
+    font-size: 2rem;
+  }
+
+  .product-container .card .card-body .card-title {
+    font-size: 1rem;
+  }
+
+  /* footer media queries */
+
+  #get-to-know {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    color: white;
+  }
+
+  #get-to-know .s-head h2 {
+    font-size: 1.875rem;
+  }
+
+  #get-to-know .s-para p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .subscribe-section-text {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .input-field {
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0 5%;
+  }
+
+  .s-input #mail-input {
+    display: block;
+  }
+
+  .s-input #e-mail {
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 100rem 0% 0% 100rem;
+  }
+
+  .s-input #submit-form {
+    border: none;
+    background-color: var(--color-voilet-200);
+    color: rgb(0, 0, 0);
+    border-radius: 0 100rem 100rem 0;
+    transition: 0.2s ease-in-out;
+  }
+
+  .s-input #submit-form:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .input-field .after-submit {
+    color: white;
+    text-align: center;
+  }
+
+  /* important-links section */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #important-links1 {
+    padding: 1rem 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  #important-links1 span {
+    font-weight: bold;
+  }
+
+  #important-links1 ul li {
+    letter-spacing: 0.7px;
+    font-size: 0.8rem;
+  }
+
+  /* social links for tablets*/
+  #social-links {
+    margin: auto 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  #social-links h2 {
+    font-size: 1rem;
+  }
+
+  #social-links .social-link-lists {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 20%;
+    width: calc(100%);
+  }
+
+  #social-links .social-link-lists img {
+    height: 2rem;
+  }
+
+  #payment-partners {
+    text-align: center;
+  }
+
+  #payment-partners h2 {
+    font-size: small;
+  }
+
+  #payment-partners .payment-partners-links img {
+    height: 2rem;
+  }
+
+  #payment-partners .payment-partners-links {
+    margin: auto;
+  }
+
+  hr {
+    margin: 5% 0;
+    margin-bottom: 0;
+  }
+
+  #cortex-links {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+  #cortex-links h2 {
+    font-size: 0.75rem;
+  }
+
+  #cortex-links a {
+    color: white;
+  }
+}
+
+@media (max-width: 400px) {
+  #productlist-container-view {
+    margin-top: 30%;
+  }
+
+  .product-container .card .card-body {
+    font-size: 1rem;
+  }
+
+  .product-container .card .card-body .card-title {
+    font-size: 1rem;
+  }
+}
